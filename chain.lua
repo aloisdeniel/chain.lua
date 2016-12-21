@@ -45,7 +45,7 @@ function Chain:update(dt)
   if type(current.update) == "function" then
     currentFinished = current:update(dt)
   else
-    for _,element in ipairs(self.current) do
+    for _,element in ipairs(current) do
       currentFinished = element:update(dt) and currentFinished
     end
   end
