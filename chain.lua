@@ -1,5 +1,5 @@
 local chain = {
-  _VERSION     = 'chain 1.0.0',
+  _VERSION     = 'chain 1.0.1',
   _DESCRIPTION = 'chaining updatable elements for lua',
   _URL         = 'https://github.com/aloisdeniel/chain.lua',
   _LICENSE     = [[
